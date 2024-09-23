@@ -7,16 +7,33 @@ body {
 
 .container {
     margin: 50px auto;
-    max-width: 600px;
+    max-width: 800px;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
 }
 
 h1 {
     color: #ff6347;
     text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+img {
+    width: 45%; 
+    height: 450px; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+.text-box {
+    width: 50%;
+    padding-left: 20px;
 }
 
 p {
@@ -25,13 +42,6 @@ p {
     line-height: 1.8;
     margin-bottom: 20px;
     text-align: justify;
-}
-
-img {
-    margin-top: 20px;
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
 }
 
 .border-box {
